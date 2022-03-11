@@ -2,6 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import VideoListEntry from './VideoListEntry.js';
 
+// Video list is unchanged (it was already stateless functional component)
+// Still passed videos and handleClick function from mapState/Dispatch in container
+
 var VideoList = ({videos, handleVideoListEntryTitleClick}) => (
   <div className="video-list">
     {

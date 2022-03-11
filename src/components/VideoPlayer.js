@@ -1,6 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+// Still functional stateless component
+// Note ternary for load
+
 var VideoPlayer = ({video}) => (
   !video
     ? <div className="video-player">Please wait...</div>
